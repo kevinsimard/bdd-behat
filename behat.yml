@@ -1,0 +1,15 @@
+default:
+  extensions:
+    Behat\MinkExtension:
+      base_url: http://localhost
+      selenium2: ~
+
+firefox:
+  extensions:
+    Behat\MinkExtension:
+      browser_name: firefox
+
+chrome:
+  extensions:
+    Behat\MinkExtension:
+      browser_name: chrome
