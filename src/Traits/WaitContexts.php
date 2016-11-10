@@ -11,6 +11,6 @@ trait WaitContexts
      */
     public function waitForAjaxPageToLoad()
     {
-        $this->getSession()->wait(2000, '(jQuery.active === 0)');
+        $this->getSession()->wait(2000, "(jQuery.active === 0)");
     }
 }
